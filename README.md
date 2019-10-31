@@ -5,6 +5,10 @@ Collaborators
 * Anthony 
 * Takashi
 
+UXDI Collabortors
+* Thomas
+* Yanira
+* Anushka
 
 BAba yaga!!
 the second time
