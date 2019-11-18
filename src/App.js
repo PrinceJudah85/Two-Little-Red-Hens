@@ -24,10 +24,9 @@ class App extends React.Component {
     return (
       <div className="App">
 
-
-
         <Header />
         <main>
+          <Route path="/About" render={() => (<About />)} />
           <Route path="/Menu"><Menu /></Route>
           <Route path="/Thanksgiving"><Thanksgiving /></Route>
           <Route path="/Cake"><Cake /></Route>

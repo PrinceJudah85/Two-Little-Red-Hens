@@ -111,6 +111,143 @@
   color:#ae272e;
 }
 
+/* ==========================[Footer Component]=========================== */
+
+.footer {
+  width:100%;
+  height:7.5em;
+  display:flex;
+  justify-items:space-between;
+  align-items:center;
+  background-color:#ae272e;
+}
+
+.footer img{
+  height:62px;
+  width:62px;
+}
+
+.ig-icon {
+  margin-left:67px;
+}
+
+.fb-icon {
+  margin-left:67px;
+}
+
+.sm-links {
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  padding-top:.8em;
+  padding-bottom:.8em;
+  width:100%;
+}
+
+/* ===========================[About Component]============================ */
+
+.about {
+  display:grid;
+  grid-template-columns:[first] 65px [second] 1fr [third] 1fr [fourth] 65px [last];
+  grid-template-rows:[line1] 553px [line2] auto [line3] auto [line4];
+  height:1200px;
+}
+
+.about-left{
+  grid-column-start: second;
+  grid-column-end: third;
+  grid-row-start: line1;
+  grid-row-end: line2;
+  margin-top:50px;
+}
+
+.about-right{
+  margin-top:50px;
+  grid-column-start: third;
+  grid-column-end: fourth;
+  grid-row-start: line1;
+  grid-row-end: line2;
+  margin-left:12%;
+  justify-self:center;
+}
+
+.about-right h3{
+  font-family:'Hind Madurai', sans-serif;
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
+  color:#ae272e;
+  margin-top:24%;
+}
+
+.about-right p{
+  font-family:'Hind Madurai', sans-serif;
+  font-size:21px;
+  font-weight:medium;
+  text-align:center;
+  color: rgba(0, 0, 0, 0.85);
+  margin-top: -1em;
+  line-height: 1.4em;
+}
+
+.about img{
+  height:503px;
+  width:671px;
+}
+
+.testimonial-left {
+  grid-column-start: second;
+  grid-column-end: third;
+  grid-row-start: line2;
+  grid-row-end: line3;
+  margin-left:1em;
+}
+
+.testimonial-left img{
+  height:27vh;
+  width:70%;
+}
+
+#second-testimonial {
+  margin-top:3.4em;
+  margin-left:24%;
+  height:23vh;
+}
+
+.testimonial-left h3{
+  font-family:'Hind Madurai', sans-serif;
+  font-size:30px;
+  font-weight:bold;
+  color:#ae272e;
+}
+
+.testimonial-right {
+  grid-column-start: third;
+  grid-column-end: fourth;
+  grid-row-start: line2;
+  grid-row-end: line3;
+  margin-left:20%;
+}
+
+.testimonial-right img{
+  margin-top:16%;
+  height:30vh;
+  width:97%;
+}
+
+.red-hen{
+  grid-column-start: third;
+  grid-column-end: fourth;
+  grid-row-start: line3;
+  grid-row-end: line4;
+}
+
+.red-hen img{
+  height:316px;
+  width:276px;
+  margin-top:-1em;
+  margin-left:4em;
+}
+
 /* ==========================[Menu Component]=========================== */
 .menu-category-div {
   height: 228px;
@@ -154,39 +291,6 @@
   background-color: #ffffff;
   display:none;
 }
-
-/* ==========================[Footer Component]=========================== */
-
-.footer {
-  width:100%;
-  height:7.5em;
-  display:flex;
-  justify-items:space-between;
-  align-items:center;
-  background-color:#ae272e;
-}
-
-.footer img{
-  height:62px;
-  width:62px;
-}
-
-.ig-icon {
-  margin-left:67px;
-}
-
-.fb-icon {
-  margin-left:67px;
-}
-
-.sm-links {
-  border-top: 3px solid white;
-  border-bottom: 3px solid white;
-  padding-top:.8em;
-  padding-bottom:.8em;
-  width:100%;
-}
-
 
 /* ==========================[ContactUs Component]=========================== */
 
