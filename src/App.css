@@ -1,4 +1,4 @@
-.App {
+* {
   text-decoration:none;
 }
 /* ========================= [Header Component] ========================= */
@@ -111,6 +111,50 @@
   color:#ae272e;
 }
 
+/* ==========================[Menu Component]=========================== */
+.menu-category-div {
+  height: 228px;
+  background-color: #ae272e;
+  display:grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 0 11.5%;
+  padding-top: 12px;
+}
+
+.menu-category:hover .menu-category-underline{
+  display:inline
+}
+.menu-category-div p {
+  width: 192px;
+  height: 36px;
+  object-fit: contain;
+  font-family:'Hind Madurai', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-category-img {
+  width: 192px;
+  height: 168px;
+  object-fit: contain;
+}
+.menu-category-underline {
+  width: 180px;
+  height: 4px;
+  object-fit: contain;
+  border-radius: 3px;
+  background-color: #ffffff;
+  display:none;
+}
+
 /* ==========================[Footer Component]=========================== */
 
 .footer {
@@ -143,109 +187,59 @@
   width:100%;
 }
 
-/* ===========================[About Component]============================ */
 
-.about {
-  display:grid;
-  grid-template-columns:[first] 65px [second] 1fr [third] 1fr [fourth] 65px [last];
-  grid-template-rows:[line1] 553px [line2] auto [line3] auto [line4];
-  height:1200px;
+/* ==========================[ContactUs Component]=========================== */
+
+#contact-us-section {
+  margin: 85px;
 }
 
-.about-left{
-  grid-column-start: second;
-  grid-column-end: third;
-  grid-row-start: line1;
-  grid-row-end: line2;
-  margin-top:50px;
-}
-
-.about-right{
-  margin-top:50px;
-  grid-column-start: third;
-  grid-column-end: fourth;
-  grid-row-start: line1;
-  grid-row-end: line2;
-  margin-left:12%;
-  justify-self:center;
-}
-
-.about-right h3{
+.contact-by-phone {
+  width: 249px;
+  height: 82px;
   font-family:'Hind Madurai', sans-serif;
-  font-size:30px;
-  font-weight:bold;
-  text-align:center;
-  color:#ae272e;
-  margin-top:24%;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ae272e;
 }
-
-.about-right p{
+.phone-number {
+  width: 117px;
+  height: 29px;
   font-family:'Hind Madurai', sans-serif;
-  font-size:21px;
-  font-weight:medium;
-  text-align:center;
-  color: rgba(0, 0, 0, 0.85);
-  margin-top: -1em;
-  line-height: 1.4em;
+  font-size: 21px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.phone-img {
+  width: 41.6px;
+  height: 21.3px;
+  object-fit: contain;
 }
 
-.about img{
-  height:503px;
-  width:671px;
-}
-
-.testimonial-left {
-  grid-column-start: second;
-  grid-column-end: third;
-  grid-row-start: line2;
-  grid-row-end: line3;
-  margin-left:1em;
-}
-
-.testimonial-left img{
-  height:27vh;
-  width:70%;
-}
-
-#second-testimonial {
-  margin-top:3.4em;
-  margin-left:24%;
-  height:23vh;
-}
-
-.testimonial-left h3{
+.location-header {
+  width: 310px;
+  height: 41px;
   font-family:'Hind Madurai', sans-serif;
-  font-size:30px;
-  font-weight:bold;
-  color:#ae272e;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ae272e;
 }
 
-.testimonial-right {
-  grid-column-start: third;
-  grid-column-end: fourth;
-  grid-row-start: line2;
-  grid-row-end: line3;
-  margin-left:20%;
+.gmap_canvas {
+  width: 420px;
+  height: 420px;
+  object-fit: contain;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.5);
 }
-
-.testimonial-right img{
-  margin-top:16%;
-  height:30vh;
-  width:97%;
-}
-
-.red-hen{
-  grid-column-start: third;
-  grid-column-end: fourth;
-  grid-row-start: line3;
-  grid-row-end: line4;
-}
-
-.red-hen img{
-  height:316px;
-  width:276px;
-  margin-top:-1em;
-  margin-left:4em;
-}
-
-
