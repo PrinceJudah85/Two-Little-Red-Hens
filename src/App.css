@@ -1,4 +1,4 @@
-.App {
+* {
   text-decoration:none;
 }
 /* ========================= [Header Component] ========================= */
@@ -248,4 +248,110 @@
   margin-left:4em;
 }
 
+/* ==========================[Menu Component]=========================== */
+.menu-category-div {
+  height: 228px;
+  background-color: #ae272e;
+  display:grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 0 11.5%;
+  padding-top: 12px;
+}
 
+.menu-category:hover .menu-category-underline{
+  display:inline
+}
+.menu-category-div p {
+  width: 192px;
+  height: 36px;
+  object-fit: contain;
+  font-family:'Hind Madurai', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-category-img {
+  width: 192px;
+  height: 168px;
+  object-fit: contain;
+}
+.menu-category-underline {
+  width: 180px;
+  height: 4px;
+  object-fit: contain;
+  border-radius: 3px;
+  background-color: #ffffff;
+  display:none;
+}
+
+/* ==========================[ContactUs Component]=========================== */
+
+#contact-us-section {
+  margin: 85px;
+}
+
+.contact-by-phone {
+  width: 249px;
+  font-family:'Hind Madurai', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ae272e;
+}
+.phone-number {
+  width: 117px;
+  height: 29px;
+  font-family:'Hind Madurai', sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.phone-img {
+  width: 41.6px;
+  height: 21.3px;
+  object-fit: contain;
+}
+
+.location-header {
+  width: 310px;
+  height: 41px;
+  font-family:'Hind Madurai', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ae272e;
+}
+
+.gmap_canvas {
+  width: 420px;
+  height: 420px;
+  object-fit: contain;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.5);
+}
+
+#contact-phone-div {
+  display: flex;
+  align-items: center;
+}
+
+#contact-phone-div p {
+  margin: 0;
+}
