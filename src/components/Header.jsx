@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../images/full-logo.png';
 
 function Header() {
   return (
@@ -11,9 +12,9 @@ function Header() {
         <Link to='/Menu'>Menu</Link>
       </div>
       <div className="nav-title">
-        <Link to='/' className='nav-title'>Two Little Red Hens</Link>
-        <p className='nav-title2'>An American Bakery</p>
-        <p className='nav-title3'>est. 1992</p>
+        <Link to='/' className='nav-title'>
+          <img src={logo} alt="Two Little Red Hens Logo" ></img>
+        </Link>
       </div>
       <div className='nav-about'>
         <Link to='/About'>About</Link>

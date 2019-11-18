@@ -7,7 +7,7 @@ export default function ContactUs() {
       <h2 className="contact-by-phone">Contact by Phone!</h2>
       <div id="contact-phone-div">
         <img className="phone-img" src={phoneImg} alt="phone image"></img>
-        <p className="phone-number">516-699-9001</p>
+        <a className="phone-number" href="tel:5166999001">516-699-9001</a>
       </div>
 
       <h2 className="location-header">Where are we located?</h2>
