@@ -300,7 +300,6 @@
 
 .contact-by-phone {
   width: 249px;
-  height: 82px;
   font-family:'Hind Madurai', sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -346,4 +345,13 @@
   height: 420px;
   object-fit: contain;
   box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.5);
+}
+
+#contact-phone-div {
+  display: flex;
+  align-items: center;
+}
+
+#contact-phone-div p {
+  margin: 0;
 }

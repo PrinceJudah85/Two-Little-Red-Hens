@@ -10,6 +10,7 @@ import Cupcake from './components/Cupcake';
 import Cheesecake from './components/Cheesecake';
 import Pie from './components/Pie';
 import ContactUs from './components/ContactUs';
+import About from './components/About';
 
 class App extends React.Component {
   constructor() {
