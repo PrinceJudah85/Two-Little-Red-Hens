@@ -10,7 +10,12 @@ import rectangleImage from '../images/rectangle.png';
 export default function Menu() {
 
   return (
-    <section id='menu-section'>
+    <section id='menu'>
+    <div className='small-menu'>
+    
+    </div>
+    
+    <div className='menu-section'>
       <div className="menu-category-div" id="sub-header">
         <Link to='/Thanksgiving'>
           <div className="menu-category" id="thanksgiving-category">
@@ -48,6 +53,8 @@ export default function Menu() {
           </div>
         </Link>
       </div>
+    </div>
+
     </section>
   );
 }

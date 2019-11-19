@@ -5,6 +5,14 @@ import logo from '../images/full-logo.png';
 function Header() {
   return (
     <div className='header'>
+      <div className='small-header'>
+        <div className="nav-title">
+          <Link to='/' className='nav-title'>
+            <img src={logo} alt="Two Little Red Hens Logo" ></img>
+          </Link>
+        </div>
+      </div>
+    <div className='full-header'>
       <div className='nav-home'>
         <Link to='/Home'>Home</Link>
       </div>
@@ -21,6 +29,7 @@ function Header() {
       </div>
       <div className='nav-contact'>
         <Link to='/ContactUs'>Contact Us</Link>
+      </div>
       </div>
     </div>
   )
