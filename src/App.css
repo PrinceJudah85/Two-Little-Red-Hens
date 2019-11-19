@@ -2,7 +2,7 @@
   text-decoration:none;
 }
 /* ========================= [Header Component] ========================= */
-.header {
+.full-header {
   display:flex;
   align-items:baseline;
   justify-content:space-between;
@@ -123,16 +123,16 @@
 }
 
 .footer img{
-  height:62px;
-  width:62px;
+  height:3.87em;
+  width:3.87em;
 }
 
 .ig-icon {
-  margin-left:67px;
+  margin-left:4.18em;
 }
 
 .fb-icon {
-  margin-left:67px;
+  margin-left:4.18em;
 }
 
 .sm-links {
@@ -296,6 +296,8 @@
 
 #contact-us-section {
   margin: 85px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .contact-by-phone {
@@ -328,6 +330,7 @@
 }
 
 .location-header {
+  padding-top: 55px;
   width: 310px;
   height: 41px;
   font-family:'Hind Madurai', sans-serif;
@@ -356,5 +359,110 @@
   margin: 0;
 }
 
-/* =========================== [component name goes here] ============================= */
+.message-us {
+  width: 165px;
+  height: 41px;
+  font-family:'Hind Madurai', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ae272e;
+}
 
+.message-box {
+  width: 595px;
+  height: 595px;
+  object-fit: contain;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+  padding: 20px;
+} 
+.input-field, .input-label {
+  width: 10%;
+  height: 70px;
+  font-family:'Hind Madurai', sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-right: 10px;
+}
+.input-field {
+  width:85%;
+  border: none;
+}
+
+.message-box textarea {
+  resize: none;
+  width: 100%;
+  height: 330px;
+  font-family:'Hind Madurai', sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  border: none;
+}
+
+.submit-img {
+padding-left: 75%;
+}
+
+/* ==================================@media============== */
+
+@media screen and (min-width: 376px) {
+  .small-header, .small-menu { display: none; }
+}
+
+@media screen and (min-width: 0px) and (max-width: 375px) {
+  .full-header, .menu-category-div { display: none; }  /* show it on small screens */
+  .app {
+    text-align: center;
+  }
+
+  .small-menu {
+    width: 100%;
+    height: 4.3em;
+    background-color: #ae272e;
+  }
+
+  #cake-menu, #thanksgiving-menu, #pie-menu, #cupcake-menu, #cheesecake-menu, #cake-menu {
+    width:350px;
+    height:400px;
+    object-fit:cover;
+  }
+
+  .sm-links {
+    display:flex;
+    justify-items:center;
+    align-items:center;
+    justify-content:space-evenly;
+    background-color:#ae272e;
+    height: 4.3em;
+    width: 100%;
+  }
+
+  .footer img {
+    height: 2em;
+    width: 2em;
+  }
+  .ig-icon {
+    margin-left:0;
+  }
+  
+  .fb-icon {
+    margin-left:0;
+  }
+  
+
+
+}
