@@ -21,11 +21,7 @@
 }
 
 .nav-home :hover{
-  border-bottom: .1em solid #ae272e; 
   padding-bottom:.3em;
-  /* Remove lower CSS to remove added padding / shifting during hover */
-  padding-left:.5em;
-  padding-right:.5em;
 
 }
 
@@ -36,12 +32,8 @@
   margin-bottom:36px;
 }
 
-.nav-menu :hover{
-  border-bottom: .1em solid #ae272e; 
+.nav-menu :hover{ 
   padding-bottom:.3em;
-  /* Remove lower CSS to remove added padding / shifting during hover */
-  padding-left:.5em;
-  padding-right:.5em;
 }
 
 .nav-title{
@@ -82,11 +74,7 @@
 }
 
 .nav-about :hover{
-  border-bottom: .1em solid #ae272e; 
   padding-bottom:.3em;
-  /* Remove lower CSS to remove added padding / shifting during hover */
-  padding-left:.5em;
-  padding-right:.5em;
 }
 
 .nav-contact{
@@ -98,11 +86,7 @@
 }
 
 .nav-contact :hover{
-  border-bottom: .1em solid #ae272e; 
   padding-bottom:.3em;
-  /* Remove lower CSS to remove added padding / shifting during hover */
-  padding-left:.5em;
-  padding-right:.5em;
 }
 
 .header a{
