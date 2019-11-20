@@ -7,7 +7,7 @@ export default function Pie() {
 
   return (
     <>
-      <Menu />
+      <Menu page="Pie" />
       <div className='mobile-menu-title'><p className='mobile-ptag'>Menu</p></div>
       <div className='small-menu'>
         <div className='left-arrow'><Link to="/Cupcake">Cupcakes</Link></div>
