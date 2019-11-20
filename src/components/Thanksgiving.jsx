@@ -6,7 +6,7 @@ export default function Thanksgiving() {
 
   return (
     <>
-      <Menu />
+      <Menu page="Thanksgiving"/>
       <div id="menu-div">
         <img id="thanksgiving-menu" src={thanksgivingMenu} alt="Thanksgiving Menu"></img>
       </div>

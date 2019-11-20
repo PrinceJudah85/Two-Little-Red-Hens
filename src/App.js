@@ -11,6 +11,7 @@ import Cheesecake from './components/Cheesecake';
 import Pie from './components/Pie';
 import ContactUs from './components/ContactUs';
 import About from './components/About';
+import Home from './components/Home';
 
 class App extends React.Component {
   constructor() {
@@ -35,6 +36,7 @@ class App extends React.Component {
           <Route path="/Cheesecake"><Cheesecake /></Route>
           <Route path="/Pie"><Pie /></Route>
           <Route path="/ContactUs"><ContactUs /></Route>
+          <Route path="/Home"><Home /></Route>
         </main>
         <Footer />
       </div>

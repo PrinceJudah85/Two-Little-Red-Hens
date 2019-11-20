@@ -6,7 +6,7 @@ export default function Cheesecake() {
 
   return (
     <>
-      <Menu />
+      <Menu page="Cheesecake" />
       <div id="menu-div">
         <img id="cheesecake-menu" src={cheesecakeMenu} alt="Cheesecake Menu"></img>
       </div>

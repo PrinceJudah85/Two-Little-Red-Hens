@@ -6,7 +6,7 @@ export default function Cupcake() {
 
   return (
     <>
-      <Menu />
+      <Menu  page="Cupcake"/>
       <div id="menu-div">
         <img id="cupcake-menu" src={cupcakeMenu} alt="Cupcake Menu"></img>
       </div>

@@ -6,7 +6,7 @@ export default function Pie() {
 
   return (
     <>
-      <Menu />
+      <Menu page="Pie" />
       <div id="menu-div">
         <img id="pie-menu" src={pieMenu} alt="Pie Menu"></img>
       </div>

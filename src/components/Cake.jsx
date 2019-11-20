@@ -6,7 +6,7 @@ export default function Cake() {
 
   return (
     <>
-      <Menu />
+      <Menu page="Cake" />
       <div id="menu-div">
         <img id="cake-menu" src={cakeMenu} alt="Cake Menu"></img>
       </div>
