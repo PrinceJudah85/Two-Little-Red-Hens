@@ -420,14 +420,18 @@ padding-left: 75%;
 
 /* ==================================@media============== */
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 415px) {
   .small-header, .small-menu { display: none; }
 }
 
-@media screen and (min-width: 0px) and (max-width: 375px) {
+@media screen and (min-width: 0px) and (max-width: 414px) {
   .full-header, .menu-category-div { display: none; }  /* show it on small screens */
   .app {
     text-align: center;
+  }
+
+  .header {
+    border: 1px solid #ae272e;
   }
 
   .small-menu {
@@ -435,7 +439,7 @@ padding-left: 75%;
     align-items:baseline;
     justify-content:space-between;
     width: 100%;
-    height: 4.3em;
+    height: 90px;
     background-color: #ae272e;
   }
 
@@ -454,24 +458,43 @@ padding-left: 75%;
     height: 4.3em;
     width: 100%;
   }
-  .footer img{
-    height:35px;
-    width:35px;
-  }
+ 
   .left-arrow, .right-arrow {
     width: 30px;
     height: 30px;
     background-color: #ffffff;
   }
+  .mobile-menu-title {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+  } 
 
+  .mobile-menu-title p {
+  font-family:'Hind Madurai', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ae272e;
+  }
   .mobile-title {
     color: white;
-    font-size: 30px;
+    margin-top: 20px;
+    
   }
-
+  .mobile-ptag{
+    margin-top: 10px;
+    font-weight: bold;
+  }
   .footer img {
     height: 2em;
     width: 2em;
+
   }
   .ig-icon {
     margin-left:0;
@@ -479,6 +502,10 @@ padding-left: 75%;
   
   .fb-icon {
     margin-left:0;
+  }
+
+  .right-arrow-noshow, .left-arrow-noshow {
+  background-color: #bc0c27;
   }
   
 

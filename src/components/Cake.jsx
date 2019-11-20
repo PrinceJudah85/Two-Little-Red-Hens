@@ -8,6 +8,7 @@ export default function Cake() {
   return (
     <>
       <Menu page="Cake" />
+      <div className='mobile-menu-title'><p className='mobile-ptag'>Menu</p></div>
       <div className='small-menu'>
         <div className='left-arrow'><Link to="/Thanksgiving">Thanks</Link></div>
         <h1 className='mobile-title'>Cakes</h1>

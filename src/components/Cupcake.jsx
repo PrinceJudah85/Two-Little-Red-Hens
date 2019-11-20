@@ -7,7 +7,8 @@ export default function Cupcake() {
 
   return (
     <>
-      <Menu  page="Cupcake"/>
+      <Menu page="Cupcake" />
+      <div className='mobile-menu-title'><p className='mobile-ptag'>Menu</p></div>
       <div className='small-menu'>
         <div className='left-arrow'><Link to="/Cheesecake">Cheesecakes</Link></div>
         <h1 className='mobile-title'>Cupcakes</h1>
