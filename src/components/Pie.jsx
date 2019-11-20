@@ -10,9 +10,9 @@ export default function Pie() {
       <Menu page="Pie" />
       <div className='mobile-menu-title'><p className='mobile-ptag'>Menu</p></div>
       <div className='small-menu'>
-        <div className='left-arrow'><Link to="/Cupcake">Cupcakes</Link></div>
-        <h1 className='mobile-title'>Pie</h1>
-        <div className='right-arrow'></div>
+        <div className='left-arrow'><Link to="/Cupcake">Cup</Link></div>
+        <h1 className='mobile-title'>Pies</h1>
+        <div className='right-arrow-noshow'></div>
       </div>
       <div id="menu-div">
         <img id="pie-menu" src={pieMenu} alt="Pie Menu"></img>

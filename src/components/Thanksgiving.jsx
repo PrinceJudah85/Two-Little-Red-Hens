@@ -8,8 +8,9 @@ export default function Thanksgiving() {
   return (
     <>
       <Menu page="Thanksgiving" />
+      <div className='mobile-menu-title'><p className='mobile-ptag'>Menu</p></div>
       <div className='small-menu'>
-        <div className='left-arrow'></div>
+        <div className='left-arrow-noshow'></div>
         <h1 className='mobile-title'>Thanksgiving</h1>
         <div className='right-arrow'><Link to="/Cake">Cake</Link> </div>
       </div>

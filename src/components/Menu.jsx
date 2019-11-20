@@ -10,6 +10,7 @@ import rectangleImage from '../images/rectangle.png';
 export default function Menu(props) {
   return (
     <section id='menu'>
+      
       <div className='menu-section'>
         <div className="menu-category-div" id="sub-header">
           <Link to='/Thanksgiving'>
