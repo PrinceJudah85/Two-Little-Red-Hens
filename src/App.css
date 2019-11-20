@@ -123,16 +123,16 @@
 }
 
 .footer img{
-  height:62px;
-  width:62px;
+  height:3.87em;
+  width:3.87em;
 }
 
 .ig-icon {
-  margin-left:67px;
+  margin-left:4.18em;
 }
 
 .fb-icon {
-  margin-left:67px;
+  margin-left:4.18em;
 }
 
 .sm-links {
@@ -427,25 +427,30 @@ padding-left: 75%;
   .full-header, .menu-category-div { display: none; }  /* show it on small screens */
   .app {
     text-align: center;
-
   }
+
   .small-menu {
     display:flex;
     align-items:baseline;
     justify-content:space-between;
     width: 100%;
-    height: 70px;
+    height: 4.3em;
     background-color: #ae272e;
-    
   }
 
   #cake-menu, #thanksgiving-menu, #pie-menu, #cupcake-menu, #cheesecake-menu, #cake-menu {
     width:350px;
-    height: 400px;
+    height:400px;
+    object-fit:cover;
   }
 
-  .footer {
-    height: 70px;
+  .sm-links {
+    display:flex;
+    justify-items:center;
+    align-items:center;
+    justify-content:space-evenly;
+    background-color:#ae272e;
+    height: 4.3em;
     width: 100%;
   }
   .footer img{
@@ -463,25 +468,18 @@ padding-left: 75%;
     font-size: 30px;
   }
 
-  .mobile-menu-title {
-    /* text-align: center; */
-    display: flex;
-    justify-content: center;
-    height: 70px;
-    width: 100%;
-  }  
-  .mobile-menu-title p {
-  font-family:'Hind Madurai', sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ae272e;
+  .footer img {
+    height: 2em;
+    width: 2em;
   }
-
-
+  .ig-icon {
+    margin-left:0;
+  }
+  
+  .fb-icon {
+    margin-left:0;
+  }
+  
 
 
 }
