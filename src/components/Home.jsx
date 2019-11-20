@@ -8,7 +8,9 @@ export default function Home() {
     <section id="home-section">
       <div>
         <img className="main-img" src={heroImg} alt="main"></img>
-        <img className="fixed-img bounce" src={scrollInd} alt="chevron" />
+        <a id="home-scroll" href="#home-lower-section" >
+          <img className="fixed-img bounce" src={scrollInd} alt="chevron" />
+        </a>
       </div>
       <Menu />
       <div id="home-lower-section">
