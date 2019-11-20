@@ -123,16 +123,16 @@
 }
 
 .footer img{
-  height:62px;
-  width:62px;
+  height:3.87em;
+  width:3.87em;
 }
 
 .ig-icon {
-  margin-left:67px;
+  margin-left:4.18em;
 }
 
 .fb-icon {
-  margin-left:67px;
+  margin-left:4.18em;
 }
 
 .sm-links {
@@ -428,28 +428,59 @@ padding-left: 75%;
   .full-header, .menu-category-div { display: none; }  /* show it on small screens */
   .app {
     text-align: center;
-
   }
+
   .small-menu {
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
     width: 100%;
-    height: 70px;
+    height: 4.3em;
     background-color: #ae272e;
-    
   }
 
   #cake-menu, #thanksgiving-menu, #pie-menu, #cupcake-menu, #cheesecake-menu, #cake-menu {
     width:350px;
-    height: 400px;
+    height:400px;
+    object-fit:cover;
   }
 
-  .footer {
-    height: 70px;
+  .sm-links {
+    display:flex;
+    justify-items:center;
+    align-items:center;
+    justify-content:space-evenly;
+    background-color:#ae272e;
+    height: 4.3em;
     width: 100%;
   }
+  .footer img{
+    height:35px;
+    width:35px;
+  }
+  .left-arrow, .right-arrow {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+  }
 
+  .mobile-title {
+    color: white;
+    font-size: 30px;
+  }
+
+  .footer img {
+    height: 2em;
+    width: 2em;
+  }
+  .ig-icon {
+    margin-left:0;
+  }
   
-
-
+  .fb-icon {
+    margin-left:0;
+  }
+  
 
 
 }
@@ -458,6 +489,7 @@ padding-left: 75%;
 
 .main-img {
   width: 100%;
+  height: 942px;
   object-fit: contain;
 }
 
@@ -546,7 +578,7 @@ padding-left: 75%;
 
 .fixed-img {
   position: absolute;
-  top: 790px;
+  top: 750px;
   left:50%;
   align-self: flex-end;
   animation-duration: 2s;

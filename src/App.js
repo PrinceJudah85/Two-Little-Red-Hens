@@ -10,7 +10,7 @@ import Cupcake from './components/Cupcake';
 import Cheesecake from './components/Cheesecake';
 import Pie from './components/Pie';
 import ContactUs from './components/ContactUs';
-import About from './components/About';
+import AboutUs from './components/AboutUs';
 import Home from './components/Home';
 
 class App extends React.Component {
@@ -25,10 +25,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-
         <Header />
         <main>
-          <Route path="/About" render={() => (<About />)} />
+          <Route exact path="/"><Home /></Route>
+          <Route path="/About"><AboutUs /></Route>
           <Route path="/Menu"><Menu /></Route>
           <Route path="/Thanksgiving"><Thanksgiving /></Route>
           <Route path="/Cake"><Cake /></Route>
