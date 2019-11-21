@@ -13,7 +13,7 @@ export default function Menu(props) {
       
       <div className='menu-section'>
         <div className="menu-category-div" id="sub-header">
-          <Link to='/Thanksgiving'>
+          <Link className='menu-img'to='/Thanksgiving'>
             <div className="menu-category" id="thanksgiving-category">
               <img className="menu-category-img" src={thanksgivingLogo} alt="thanksgiving"></img>
               <p>Thanksgiving</p>
@@ -21,7 +21,7 @@ export default function Menu(props) {
                 style={{ display: props.page === "Thanksgiving" ? 'inline' : 'none' }}></img>
             </div>
           </Link>
-          <Link to='/Cake'>
+          <Link className='menu-img' to='/Cake'>
             <div className="menu-category" id="cake-category">
               <img className="menu-category-img" src={cakeLogo} alt="cakes"></img>
               <p>Cakes</p>
@@ -29,7 +29,7 @@ export default function Menu(props) {
                 style={{ display: props.page === "Cake" ? 'inline' : 'none' }}></img>
             </div>
           </Link>
-          <Link to='/Cheesecake'>
+          <Link className='menu-img' to='/Cheesecake'>
             <div className="menu-category" id="cheesecake-category">
               <img className="menu-category-img" src={cheesecakeLogo} alt="cheesecakes"></img>
               <p>Cheesecakes</p>
@@ -37,7 +37,7 @@ export default function Menu(props) {
                 style={{ display: props.page === "Cheesecake" ? 'inline' : 'none' }}></img>
             </div>
           </Link>
-          <Link to='/Cupcake'>
+          <Link className='menu-img' to='/Cupcake'>
             <div className="menu-category" id="cupcake-category">
               <img className="menu-category-img" src={cupcakeLogo} alt="cupcakes"></img>
               <p>Cupcakes</p>
@@ -45,7 +45,7 @@ export default function Menu(props) {
                 style={{ display: props.page === "Cupcake" ? 'inline' : 'none' }}></img>
             </div>
           </Link>
-          <Link to='/Pie'>
+          <Link className='menu-img' to='/Pie'>
             <div className="menu-category" id="pie-category">
               <img className="menu-category-img" src={pieLogo} alt="pies"></img>
               <p>Pies</p>

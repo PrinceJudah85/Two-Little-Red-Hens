@@ -251,8 +251,12 @@
 }
 
 /* ==========================[Menu Component]=========================== */
+.menu-img {
+  width: 15%;
+}
+
 .menu-category-div {
-  height: 228px;
+  height: 20vh;
   background-color: #ae272e;
   display:flex;
   flex-wrap:wrap;
@@ -269,7 +273,7 @@
   height: 36px;
   object-fit: contain;
   font-family:'Hind Madurai', sans-serif;
-  font-size: 30px;
+  font-size: 1.3vw;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -282,9 +286,9 @@
 }
 
 .menu-category-img {
-  width: 75%;
-  height: 75%;
-  object-fit: contain;
+  width: 85%;
+  height: 85%;
+  object-fit: cover;
 }
 .menu-category-underline {
   width: 180px;
@@ -513,12 +517,13 @@ padding-left: 75%;
 
 .fixed-img {
   position: absolute;
-  top: 750px;
+  bottom: 5%;
   left:50%;
   align-self: flex-end;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   transform-origin: bottom;
+
   }
   .bounce {
       animation-name: bounce;
@@ -540,11 +545,11 @@ padding-left: 75%;
 
   /* ==================================@media============== */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 850px) {
   .small-header, .small-menu, .mobile-ptag, #hidden-menu, #burger-menu { display: none; } 
 }
 
-@media screen and (min-width: 0px) and (max-width: 799px) {
+@media screen and (min-width: 0px) and (max-width: 849px) {
   .full-header, .menu-category-div, #bounce { display: none; }  /* show it on small screens */
   .app {
     text-align: center;

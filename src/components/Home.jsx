@@ -16,7 +16,7 @@ export default function Home(props) {
     <section id="home-section">
       <div>
         <img className="main-img" src={heroImg} alt="main"></img>
-        <a id="home-scroll" href="#hidden-menu" >
+        <a id="home-scroll" href="#home-lower-section" >
           <img id="bounce" className="fixed-img bounce" src={scrollInd} alt="chevron" />
         </a>
       </div>
