@@ -29,7 +29,7 @@ function Header() {
           </Link>
         </div>
         <div className='nav-about'>
-          <Link to='/About'>About Us</Link>
+          <Link to='/AboutUs'>About Us</Link>
         </div>
         <div className='nav-contact'>
           <Link to='/ContactUs'>Contact Us</Link>

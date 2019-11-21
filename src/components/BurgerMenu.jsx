@@ -19,14 +19,32 @@ class BurgerMenu extends React.Component {
   }
 
   toggleMenu() {
-    this.setState(state => ({ menuOpen: !state.menuOpen }))
+    this.setState(prevState => ({
+      menuOpen: !prevState.menuOpen
+    }))
   }
+
+  // componentDidMount() {
+  //   this.setState({
+  //     event: 
+  //   })
+  // }
+
+  closeAllMenusOnEsc = (e) => {
+    e = e || window.event;
+
+    if (e.key === 'Escape' || e.keyCode === 27) {
+      this.setState({ menuOpen: false });
+    }
+
+    this.closeMenu()
+  };
 
   render() {
     return (
       <div id='burger-menu'>
-        <Menu disableAutoFocus isOpen={this.state.menuOpen}
-          onStateChange={(state) => this.handleStateChange(state)}>
+        <Menu disableAutoFocus isOpen={this.state.menuOpen} customOnKeyDown={this.closeAllMenusOnEsc}
+          onStateChange={(state) => { this.handleStateChange(state) }} onClick={this.closeMenu}>
           <Link id="home" className="menu-item" to="/" onClick={() => this.closeMenu()}>Home</Link>
           <Link id="menu" className="menu-item" to="/Thanksgiving" onClick={() => this.closeMenu()}>Menu</Link>
           <Link id="about-us" className="menu-item" to="/AboutUs" onClick={() => this.closeMenu()}>About Us</Link>
