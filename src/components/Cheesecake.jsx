@@ -11,9 +11,9 @@ export default function Cheesecake() {
       <Menu page="Cheesecake" />
       <div className='mobile-menu-title'><p className='mobile-ptag'>Menu</p></div>
       <div className='small-menu'>
-        <div className='left-arrow'><Link to="/Cake"><img src={arrow}></img></Link></div>
+        <div className='left-arrow'><Link to="/Cake"><img src={arrow} alt="left arrow"></img></Link></div>
         <h1 className='mobile-title'>Cheesecakes</h1>
-        <div className='right-arrow'><Link to="/Cupcake"><img src={rightarrow}></img></Link></div>
+        <div className='right-arrow'><Link to="/Cupcake"><img src={rightarrow} alt="right arrow"></img></Link></div>
       </div>
       <div id="menu-div">
         <img id="cheesecake-menu" src={cheesecakeMenu} alt="Cheesecake Menu"></img>

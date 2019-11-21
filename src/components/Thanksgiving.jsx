@@ -13,7 +13,7 @@ export default function Thanksgiving() {
       <div className='small-menu'>
         <div className='left-arrow-noshow'>hide</div>
         <h1 className='mobile-title'>Thanksgiving</h1>
-        <div className='right-arrow'><Link to="/Cake"><img src={rightarrow}></img></Link> </div>
+        <div className='right-arrow'><Link to="/Cake"><img src={rightarrow} alt="right arrow"></img></Link> </div>
       </div>
       <div id="menu-div">
         <img id="thanksgiving-menu" src={thanksgivingMenu} alt="Thanksgiving Menu"></img>

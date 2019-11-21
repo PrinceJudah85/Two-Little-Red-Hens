@@ -12,9 +12,9 @@ export default function Cake() {
       <Menu page="Cake" />
       <div className='mobile-menu-title'><p className='mobile-ptag'>Menu</p></div>
       <div className='small-menu'>
-        <div className='left-arrow'><Link to="/Thanksgiving"><img src={arrow}></img></Link></div>
+        <div className='left-arrow'><Link to="/Thanksgiving"><img src={arrow} alt="left arrow"></img></Link></div>
         <h1 className='mobile-title'>Cakes</h1>
-        <div className='right-arrow'><Link to="/CheeseCake"><img src={rightarrow}></img></Link></div>
+        <div className='right-arrow'><Link to="/CheeseCake"><img src={rightarrow} alt="right arrow"></img></Link></div>
       </div>
       <div id="menu-div">
         <img id="cake-menu" src={cakeMenu} alt="Cake Menu"></img>
