@@ -28,7 +28,7 @@ class App extends React.Component {
         <Header />
         <main>
           <Route exact path="/"><Home /></Route>
-          <Route path="/About"><AboutUs /></Route>
+          <Route path="/AboutUs"><AboutUs /></Route>
           <Route path="/Menu"><Menu /></Route>
           <Route path="/Thanksgiving"><Thanksgiving /></Route>
           <Route path="/Cake"><Cake /></Route>

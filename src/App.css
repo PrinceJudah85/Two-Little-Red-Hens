@@ -55,6 +55,8 @@
   color:#ae272e;
   text-decoration:none;
   line-height:8px;
+  padding-top:.2em;
+  padding-bottom:.2em;
 }
 
 
@@ -534,8 +536,7 @@ padding-left: 75%;
   /* ==================================@media============== */
 
 @media screen and (min-width: 415px) {
-  .small-header, .small-menu, .mobile-ptag, #hidden-menu { display: none; } 
-  
+  .small-header, .small-menu, .mobile-ptag, #hidden-menu, #burger-menu { display: none; } 
 }
 
 @media screen and (min-width: 0px) and (max-width: 414px) {
@@ -679,11 +680,79 @@ padding-left: 75%;
     height: 96px;
     width: 105px;
   }
+/* ======================== [Burger Menu] ========================= */
+  .bm-burger-bars {
+    position: absolute;
+    border-bottom:4px solid #ae272e;
+    margin-left:.5em;
+    height: 4px;
+    left:0;
+    right: 0;
+    top: 0%;
+    opacity: 1;
+}
+  .bm-burger-button {
+    position: absolute;
+    left: 14px;
+    top: 13px;
+    width: 9.5%;
+    height: 4.5%;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-size: 0px;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .bm-overlay {
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    width: 20%;
+    height: 40%;
+    background: rgba(255, 255, 255, 1);
+    transform: translate3d(100%, 0px, 0px);
+    transition: opacity 0.3s ease 0s, transform 1s ease 0.3s;
+  }
+
+  .bm-menu{
+    height: 20%;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+
+  .bm-item-list {
+
+    width:68%; 
+  }
+
+  nav {
+    margin-top:24%;
+  }
+
+  .header a {
+    text-decoration: none;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size:1.2em;
+    font-weight:bold;
+    text-align:center;
+    background-color:white;
+    color: #ae272e;
+    border:2px solid #ae272e;
+  }
+
+  .bm-item.menu-item {
+    padding:.9em;
+    user-select:none;
+  }
+}
+
 
    
   
   
 
 
-}
+
 
