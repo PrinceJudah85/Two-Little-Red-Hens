@@ -1,11 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../images/full-logo.png';
+import BurgerMenu from '../components/BurgerMenu';
 
 function Header() {
   return (
     <div className='header'>
       <div className='small-header'>
+        <div className='burger-menu'>
+          <BurgerMenu />
+        </div>
         <div className="nav-title">
           <Link to='/' className='nav-title'>
             <img src={logo} alt="Two Little Red Hens Logo" ></img>
@@ -32,7 +36,7 @@ function Header() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Header;
+export default Header
