@@ -746,6 +746,46 @@ padding-left: 75%;
     padding:.9em;
     user-select:none;
   }
+
+
+  .about {
+  display:flex;
+  flex-direction: column;
+  }
+
+  .about {
+    height: 525px;
+  }
+
+  .about img{
+    height:250px;
+    width:370px;
+  }
+
+  .testimonial-left,.testimonial-right {
+    display: none;
+  }
+
+
+  .about-right{
+    margin: 0;
+    padding: 0;
+  }
+
+  .about-right h3{
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    color:#ae272e;
+  }
+  
+  .about-right p{
+    font-size:14px;
+    font-weight:medium;
+    text-align:center;
+    color: rgba(0, 0, 0, 0.85);
+  }
+  
 }
 
 
