@@ -15,7 +15,7 @@ export default function ContactUs() {
         <h2 className="location-header">Where are we located?</h2>
 
         <div className="gmap_canvas">
-          <iframe width="420" height="420" id="gmap_canvas" title="map"
+          <iframe id="gmap_canvas" title="map"
             src="https://maps.google.com/maps?q=two%20little%20red%20hens&t=&z=17&ie=UTF8&iwloc=&output=embed"
             frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
           </iframe>
