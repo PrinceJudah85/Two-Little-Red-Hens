@@ -151,7 +151,7 @@
   display:grid;
   grid-template-columns:[first] 65px [second] 1fr [third] 1fr [fourth] 65px [last];
   grid-template-rows:[line1] 553px [line2] auto [line3] auto [line4];
-  height:1200px;
+  height:1300px;
 }
 
 .about-left{
